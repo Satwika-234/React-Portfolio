@@ -1,0 +1,121 @@
+.project-wrapper{
+    position: absolute;
+    margin-top: 5%;
+    margin-left : -80%;
+    margin-right: -90%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    //height: 90%;
+    //border: 2px solid #fff;
+
+    .project{
+            background-color: #d0d0cdfe;
+            display: flex;
+            flex-direction: column;
+            //justify-content: center;
+            //align-items: center;
+            //max-width: 600px;
+            width : 27vw;
+            height: 80vh;
+            //min-width : 100px;
+            border : 2px solid #fff;
+            margin-left: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+
+            &:hover{
+                box-shadow: 0 0 30px 0px lightyellow;
+                transform: scale(1.1);
+            }
+
+            img{
+                height : auto;
+                max-width : 100%;
+                border : 5px soild #fff;
+                margin-top : 25px;
+                margin-left: 25px;
+                margin-right: 25px;
+                margin-bottom: 12px;
+            }
+             
+            .text{
+                span{
+                    font-size: 13px;
+                    font-weight: 400;
+                    background-color: rgb(208, 228, 240);
+                    padding: 4px;
+                    border-radius: 4px;
+                    margin-left: 6%;
+                }
+
+                h2{
+                    font-size: 30px;
+                    margin-left: 6%;
+                    color: black;
+                }
+
+                p{
+                    font-size: 16px;
+                    color : gray;
+                    margin-left: 6%;
+                    margin-top: -4%;
+                }
+
+                a{
+                    display: inline;
+                    justify-content: center;
+                    align-items: center;
+                    padding-left : 20px;
+                    padding-right: 20px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-size: 15px;
+                    background : linear-gradient(to right,#00AAFF,#bfead1);
+                    margin-left: 35%;
+                    border-radius: 13px;
+                }
+            }
+    }
+}
+
+.top{
+    h1{
+        margin-left : 15%;
+    }
+}
+
+@media screen and (max-width : 1200px){
+    .container.projects-page{
+        width : 100%;
+        padding: 20px;
+        box-sizing: border-box;
+
+        h1{
+            margin-top: 10px;
+            margin-left: 20px;
+        }
+
+        .project-wrapper{
+            position: fixed;
+            width : 90%;
+            margin-left: 1%;
+            display: flex;
+            overflow: visible;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-right: 5px;
+
+            .project{
+                width : 300px;
+                height : 40%;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}
+
+body{
+    overflow: visible;
+    overflow-x: hidden;
+}
