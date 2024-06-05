@@ -102,3 +102,6 @@ function Logo(){
 }
 
 export default Logo;
+
+
+// "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
