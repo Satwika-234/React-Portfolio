@@ -1,6 +1,9 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "20.x"
+  },
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^4.3.3",
