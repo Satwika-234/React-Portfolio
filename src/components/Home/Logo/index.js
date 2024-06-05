@@ -1,7 +1,7 @@
 import './index.scss';
 import logoS from '../../../assets/images/logo-s.png';
 import { useEffect, useRef } from 'react';
-import {gsap,Flip,ScrollTrigger,Observer,Draggable} from 'gsap/all';
+import {gsap} from 'gsap/all';
 
 function Logo(){
 
@@ -10,7 +10,7 @@ function Logo(){
     const solidref = useRef();
 
     useEffect(()=>{
-        gsap.registerPlugin(Flip,ScrollTrigger,Observer,Draggable);
+        // gsap.registerPlugin(Flip,ScrollTrigger,Observer,Draggable);
 
     gsap
       .timeline()
